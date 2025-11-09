@@ -62,3 +62,6 @@ python server.py
 - The server will return detection results in real-time.
 
 
+**Thank you**
+- If you consider my project as better please star it
+- you can contact me via ramakotireddyguttikonda8@gmail.com
