@@ -1,3 +1,6 @@
+## Implementation Demo
+![Phishing](src/phishing.png)
+![Legitimate](src/legitimate.png)
 # PhishUrlHunter-ReinforcementLearning
 
 **PhishUrlHunter** is a phishing detection project that identifies malicious URLs and websites using Deep Reinforcement Learning, specifically a Deep Q-Network (DQN). The project includes feature extraction pipelines, backend server logic, and a web-based frontend for real-time phishing detection.
@@ -14,9 +17,6 @@
 - Strictly for defensive research and mitigation of phishing attacks.
 
 ---
-## Implementation Demo
-![Phishing](src/phishing.png)
-![Legitimate](src/legitimate.png)
 
 ## Clone The Repository
 
