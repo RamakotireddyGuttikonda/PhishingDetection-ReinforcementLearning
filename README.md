@@ -1,16 +1,64 @@
-# React + Vite
+# PhishPatrol-ReinforcementLearning
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**PhishPatrol** is a phishing detection project that identifies malicious URLs and websites using Deep Reinforcement Learning, specifically a Deep Q-Network (DQN). The project includes feature extraction pipelines, backend server logic, and a web-based frontend for real-time phishing detection.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- Extracts and processes URL and website features for phishing analysis.  
+- Real-time detection through a Python backend server (`server.py`).  
+- User-friendly web frontend for submitting URLs and viewing results.  
+- Modular design for easy updates and improvements to detection logic.  
+- Logging, visualization, and evaluation of detection results.  
+- Strictly for defensive research and mitigation of phishing attacks.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Clone The Repository
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+You can get the project in two ways:
+
+**Clone the repository**:  
+```bash
+git clone https://github.com/RamakotireddyGuttikonda/PhishPatrol-ReinforcementLearning.git
+cd PhishPatrol-ReinforcementLearning
+```
+
+
+---
+
+## Installation
+
+1. **Create a Python virtual environment**  
+```bash
+cd backend
+python -m venv venv
+source venv/bin/activate      # Linux/macOS
+venv\Scripts\activate         # Windows
+```
+
+1. **Install dependencies**  
+```bash
+pip install -r requirements.txt
+```
+- 
+## Working of project
+
+**Run the project**:  
+```bash
+cd PhishPatrol-ReinforcementLearning
+npm run dev
+
+cd backend
+python server.py
+```
+- By default, the server runs at `http://localhost:5000/`.
+---
+ 
+
+**Test phishing detection**  
+- Enter URLs in the web app input field and submit.  
+- The server will return detection results in real-time.
+
+
