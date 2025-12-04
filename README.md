@@ -47,17 +47,16 @@ venv\Scripts\activate         # Windows
 ```bash
 pip install -r requirements.txt
 ```
-- 
-## Working of project
+**Run the Backend**:
+```bash
+python server.py
+```
 
-**Run the project**:  
+**Run the Frontend**:  
 ```bash
 cd PhishingDetection-ReinforcementLearning
 npm install @vitejs/plugin-react --save-dev
 npm run dev
-
-cd backend
-python server.py
 ```
 - By default, the server runs at `http://localhost:5000/`.
 ---
