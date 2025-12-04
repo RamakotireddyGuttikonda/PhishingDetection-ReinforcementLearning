@@ -1,0 +1,13 @@
+--->Clone the repository:
+git clone https://github.com/RamakotireddyGuttikonda/PhishUrlHunter.git
+
+--->Run the Backend :
+cd PhishingDetection-ReinforcementLearning
+cd backend
+pip install -r requirements.txt
+python server.py
+
+--->Run the Frontend:
+cd PhishingDetection-ReinforcementLearning
+npm install @vitejs/plugin-react --save-dev
+npm run dev
