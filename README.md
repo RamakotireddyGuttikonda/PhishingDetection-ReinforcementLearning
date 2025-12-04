@@ -38,15 +38,11 @@ cd PhishingDetection-ReinforcementLearning
 1. **Create a Python virtual environment**  
 ```bash
 cd backend
-python -m venv venv
-source venv/bin/activate      # Linux/macOS
-venv\Scripts\activate         # Windows
-```
-
-1. **Install dependencies**  
-```bash
 pip install -r requirements.txt
 ```
+- You can create a virtual Environment if needed.
+---
+
 **Run the Backend**:
 ```bash
 python server.py
