@@ -27,7 +27,7 @@ You can get the project in two ways:
 **Clone the repository**:  
 ```bash
 git clone https://github.com/RamakotireddyGuttikonda/PhishUrlHunter.git
-cd PhishUrlHunter
+cd PhishingDetection-ReinforcementLearning
 ```
 
 
@@ -52,7 +52,8 @@ pip install -r requirements.txt
 
 **Run the project**:  
 ```bash
-cd PhishUrlHunter
+cd PhishingDetection-ReinforcementLearning
+npm install @vitejs/plugin-react --save-dev
 npm run dev
 
 cd backend
