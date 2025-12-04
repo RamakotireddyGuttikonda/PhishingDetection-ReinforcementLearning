@@ -47,7 +47,7 @@ export default function App() {
           >
             <label className="text-4xl font-bold">Phishing Detection</label>
             <input
-              placeholder="Enter a URL"
+              placeholder="Enter a URL (with http or https)"
               className="bg-blue-300 outline-none w-80 h-10 p-3 rounded-md text-black"
               value={url}
               onChange={(e) => setUrl(e.target.value)}
