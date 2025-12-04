@@ -35,20 +35,14 @@ cd PhishingDetection-ReinforcementLearning
 
 ## Installation
 
-1. **Create a Python virtual environment**  
+1. **Run the Backend**:
 ```bash
 cd backend
 pip install -r requirements.txt
-```
-- You can create a virtual Environment if needed.
----
-
-**Run the Backend**:
-```bash
 python server.py
 ```
 
-**Run the Frontend**:  
+2. **Run the Frontend**:  
 ```bash
 cd PhishingDetection-ReinforcementLearning
 npm install @vitejs/plugin-react --save-dev
